@@ -1,0 +1,5 @@
+“Derived types must be completely substitutable for their base types”
+
+This concept means that the modifications someone else created extending our class should be able to fit
+in an application without failue. So if objects are created in a subclass, they should perfom
+in the same way as objects in the parent class.
