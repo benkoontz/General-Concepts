@@ -1,0 +1,2 @@
+SOLID is an acronym for object-oriented design(OOD) principles. 
+Single-responsiblity, Open-closed, Liskov substitution, Interface segregation, Dependency Inversion
