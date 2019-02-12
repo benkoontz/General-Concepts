@@ -1,0 +1,4 @@
+“Software components should be open for extension, but closed for modification”
+
+This concept means that if someone else wants to change the methods or flow of a program, they can 
+extend the class and override some methods.
