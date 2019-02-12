@@ -1,0 +1,5 @@
+“Clients should not be forced to implement unnecessary methods which they will not use”
+
+Example, say the user wants to extend a class to create Excel files and not word file.
+The user shouldn't have to implement a method to create both the Excel and the word file.
+The solution is to create an interface for both Excel and word files.
