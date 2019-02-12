@@ -1,0 +1,6 @@
+“Depend on abstractions, not on concretions”
+
+High level modules should not have to depend on low level modules,
+but they should depend on abstractions.
+
+A module is a set of standardized parts or independent units 
