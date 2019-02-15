@@ -1,0 +1,10 @@
+Scrum is an agile framework, there used to organize the product better
+
+Process:
+1. a product owner creates the wishlist
+2. during sprint plannning, the team pulls a chunk from the list and decides how to complete it
+3. The team has a set time frame  (the sprint),  to complete the work, they meet in a daily scrum to keep
+the work moving forward, the scrum master keeps the process moving forward.
+4. At the end of the sprint the work should be shippable
+5. The team conducts a sprint review on the product and a retrospective on the process
+6. The scrum does another backlog (wishlist) if the process isn't complete
