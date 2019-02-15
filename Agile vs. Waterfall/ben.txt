@@ -1,0 +1,45 @@
+Incubate (waterfall) vs iterate (agile)
+
+How do you turn an idea into reality?
+
+Waterfall:
+Think about what you want to do long and hard then devlop it
+Iterative: Minimum viable project 
+Break up what youre trying to do into a simple version and put it out there
+
+Waterfall methodology:
+- the traditional and time proven approach
+- allows the execuation of large and complex projects
+- a linear appraoch from start to beginning
+- througough planning and documentation
+- 6 stages: idea, analysis, design, developement, test, final product
+-The design document is used as a blueprint for development
+-don't go back to previous stages
+-if you want a product with great accuracy
+-waterfall is somewhat outdated
+
+Agile values
+-Individulas and interacrtions over processes and tools
+-working software over comprhensive documentatin
+-customer collaboration over contract negotion
+-responding to change over following a plan
+
+The hope with agile is to build a framework that can adjust to changing demands,
+learn from mistakes, ensure a tighter feedback group, resulting in a faster product that's
+more durable.
+
+Defining features of agile
+-sprints: a chunk of time when people work on code that are usually a couple weeks
+-Requirements are tracked
+-priorites are tracked for the next sprint
+-retrospective is where people say what is good and bad
+-a scrum master is in charge of sprints, they don't necessarily have a technical background
+-stand ups are usually daily where people stand up and hear what others are working on
+
+
+Is agile better?
+Not necessarily,
+Agile is where products need small and frequent updates
+waterfall is when you prefer quality over speed
+Example to use waterfall: a banking app that holds personal data, to make sure nothing goes wrong
+Example to use agile: a social media app since the competition is fierce and people adapt to changes
