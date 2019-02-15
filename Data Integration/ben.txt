@@ -1,0 +1,60 @@
+Data integration has two sides
+one side is data producers (source) and the other side is data consumers (target)
+Data integration refers to the process and technologies that move data from the source to the target
+On it's way, the data is usually transformed in order to meet business requirements
+The data can go through multiple "source to target" layers" (from operational source into staging area,
+from staging area into data warehouse, etc.)
+
+ETL(Extract Load Transfrom) refers to the data integration approach where data is extracted from Source systems,
+then goes through transformation process and ends up by loading in a Target System. ETL is typical for data
+warehouse systems.
+1. Extract data from Sources
+2. Transform data to required format
+3. Load data into target
+
+ELT is similaar to ETL, it is a data integration approach where data is extracted from Source systems, then loaded
+without an transformation. Transformation is performed in the target system.
+1. Extract data from sourcers
+2. load data is loaded
+3. transform data to required format
+
+Batch vs. Real Time Data Integration
+2 ways to to data integration
+In batch a large group of transactions are collected and the data is processed during a single run
+Batch Considerations:
+-because of a large volume of data, the process must run when resources are less busy, usually overnight
+-batch processing postpones access to data, requires close supervision, and ther is possibility for downtime
+-due to postponed access data you miss out on the knowled of your business
+-problems that occur during batch can delay the entire process
+In Real-Time Processing, small groups of transactions are processed on demand
+Real Time considerations:
+-the advantage is that there is instantaneous acces to data, runs with fewer resource
+-you have knowledge of your business as transactions occur
+-if an error occurs, it can be handled immediately
+-it is more difficult to design real-time processsing\
+-systems with real time processing require more effort to design, but can be better
+
+Data Integration Process
+Data integration is closely related to application development(applications that move data from source to target). Data integration
+should be part of the Software Development Life Cycle(SDLC)
+The Software Developement Life Cycle refers to the process of planning, creating, teting, and deploying an informative system
+
+Role of a Data integration Specialist
+Person responsible to perform activites associated with data integration. They wrk closely with Business owners,
+data stewards, technical owners, data custodians, and Data Architects. The responsibilites are the data design
+and implementation of data integration applications, defining mapping specifications, design and implemation of data integration.
+
+Data Integration Technology Support
+data integration tools: real time processing, batch processing, chage data capture, transformatinos
+key features: ability to perform real time and batch processing, ability to perfrom data capture,
+abilitty to perform powerful transformation on structured and unstructured data, ability for comprehensive
+error handling operations
+
+Key takeaways:
+-Data integrations refers to data movement from data producers to data consumers
+-Most common data integrations are ETL and ELT
+-Data integration can be based on batch or real time processing
+-Data integration specialist are the key people in data integration
+-key features of data integration tools are related to ability to do both batch and real-time processing
+
+
