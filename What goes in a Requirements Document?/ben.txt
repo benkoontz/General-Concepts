@@ -44,6 +44,7 @@ Example, what version of SQL do you use
 2.6 Apportioning of Requirements
 
 3. Specific Requirements
+non-functional requirements describe how the system works and functional requirements describe what the system should do
 3.1 External interfaces	
 3.2 Functions	
 3.3 Performance Requirements	
