@@ -3,17 +3,36 @@ Project title, team name, team members, Version, Date
 
 1. Introduction
 1.1 purpose
+Identify the purpose and the audience
 1.2 Scope
+(1)	 Identify the software product(s) to be produced by name
+(2)	 Explain what the software product(s) will, and, if necessary, will not do
+(3)	 Describe the application of the software being specified, including relevant benefits, objectives, and goals  
+(4)	 Be consistent with similar statements in higher-level specifications if they exist
 1.3 Definitions Acronyms, and Abbreviations
+Identify the terms that users might not know about
 1.4 References 
+(1)  Provide a complete list of all documents referenced elsewhere in the SRS
+(2)  Identify each document by title, report number (if applicable), date, and publishing organization
+(3)	Specify the sources from which the references can be obtained.
 1.5 Overview
+(1)	Describe what the rest of the SRS contains
+(2)	Explain how the SRS is organized
+
 
 2. The Overall Description
-2.1  Product Perspective	
+2.1  Product Perspective
+Talk about how to product compares to other products, if it's a component of a larger/smaller system,
+if the the system is a prottype, etc...
 2.1.1 System Interfaces	
+Describe the way users act with the system. For example, the API.
 2.1.2 Interfaces	
+(1)	The logical characteristics of each interface between the software product and its users.
+(2)	All the aspects of optimizing the interface with the person who must use the system
 2.1.3 Hardware Interfaces	
+Example, this program needs to ron a MAC with a certain amount of ram.
 2.1.4 Software Interfaces	
+Example, what version of SQL do you use
 2.1.5 Communications Interfaces	
 2.1.6 Memory Constraints	
 2.1.7 Operations	
@@ -48,10 +67,22 @@ Project title, team name, team members, Version, Date
 3.8 Additional Comments
 
 4.  Change Management Process
+Describes how are you going to control changes to the requirements.
 
 5.  Document Approvals
+Identify who approves the documents
 
 6.  Supporting Information
+
+•	Table of Contents
+•	Index
+•	Appendices
+a)  Sample I/O formats, descriptions of cost analysis studies, results of user surveys
+(b)  Supporting or background information that can help the readers of the SRS
+(c)  A description of the problems to be solved by the software
+(d)  Special packaging instructions for the code and the media to meet security, export, initial loading, or other requirements
+
+
 
 
 
