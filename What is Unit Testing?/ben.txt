@@ -1,0 +1,43 @@
+Scenario: develop a banking application
+
+Requirement Analysis: The client wants 5 following functionalities
+-User Acceptance testing 
+1) Login on Valid Credientials
+2) View Current Balance
+3) Deposit
+4) Withdraw
+5) Transfer
+
+Functional Specification:
+-system testing
+Architecture, database, and environment design are finalized
+
+High Level Design Stage:
+-integration testing
+The applcation is broken down into module and programs
+              Login
+                |
+                V
+          Current Balance
+       |         |           |
+       v         v           v   
+   Deposit    Withdraw     Transfer
+   
+Detail Design:
+-unit testing
+The pseudocode for each module is documented
+
+Next: coding occurs
+
+Unit Testing:
+-It is also called component testing.
+-It is performed on standalone module to check whether it is developed correctly
+Example: using login on Valid Credientials
+unit tests for this example would be: checking for a valid login and password, checking for an invalid login and password,
+checking response when login is empty and pressed
+
+Unit testing is done by developers and testers
+
+
+
+   
