@@ -1,0 +1,124 @@
+DOORS
+IBM Software Group
+
+Why use requirements management?
+-systems are complex
+-programs can be long
+-the ability to collaborate cross the software lifecycle
+-competetion: a lot of organizations are using a high end requirements tool to get a better understanding
+of what they're supposed to build
+-compliance: there is a need to verify you comply with the organizations specifications
+-safety critical devices have to be regulated
+
+7 key factors to requirements management
+- granularity: idea that you have a document that satisifies another document, you need to parse documents to a sentence level
+to be able to do a test
+- attributes:  add additional attributes to give a greater declaration of the requirement, is it necessary or not
+- hieracrchy:  requirements analaysis is the left side,
+the highest level document could be for customers, the right side is the testing components
+-traceability: is linking a requirement to an artifcat below or above
+- collaboration: the need to be able to collaborate to make sure everyone is deliviring the same thing
+-History and Security: Important in aerospace defense and medical devices, the history has to be captured, authentication
+-Reporting: getting deliveribles 
+
+Doors is a repository of things that come in that are related to requirements, examples: excel, email, etcc...
+requirements aren't always simple
+example: a use case diagram on visio
+manage scope by understanding customer needs
+manage complexity by tracing every requirement from capture and design throuh integration and acceptance
+manage change by seeing the full impact as cleary as possible in the lifecycle
+take control with full auditing capabilites and elctronic signoff of requirement baselines
+
+In order to get things in the doors tool there's a word enviornment. You can import a docuement.
+If there's a visio diagram you can still edit it in DOORS
+Doors parses the information that's imported into it
+
+The projects are blue folders. The folders can also contain more projects. Inside the folders there's supporting documentation
+that supports projects. Folders are the ability to ogranize information however you want. If you accidentally delete a folder,
+it isn't deleted completely, it's called a soft delete. If you open a document and accidentally delete a section of a document, it also
+isn't deleted.
+
+Inside of a doors document it looks similar to a word document and there's a browser to the left side. There's requirements ID's.
+There's unique identifiers that assigns an object identifier. You can see technical requirements that have relationships and
+traceability. You can sort requirements by category such as hardware requirements.
+
+Traceability is key to compliance. Initial user requirements should be decompsed to detailed requirements and the to design, tests,
+etc. Decomposition creates traceability relationships. Relationships define your traceability model. You traceability model 
+is the basis for yourprocess. Enforce your traceability model.
+
+How to use traceability? Drag and drop linking. Drag functional requirements to the user requirements.
+Example in functional: a car should brake at 100km. in the user requirements it's user should be able to stop safely.
+
+Traceability view: user reqs, technical reqs, design, test cases
+                      |              |           |        |
+                      v              v           v        v
+                      
+    user reqs: users stop safely
+    functional requirements: car should break at 100km
+    design: use trn-ad-48 breaks
+    test case: trn-tp breaking test
+    
+Suspect links are visible directly in the document. They tell you what's changed. They tell you what your requirements are related to.
+you can clear the suspision if you want
+
+There is a need for the complete history of information. A grey screen indicates read only requirements. If you're contributing to
+requirements there's a white screen. The yellow bar indicates a change from the baseline. You can see what links have been added.
+
+Publishishing Documents, high quality, compliant documents
+Template driven document generation ensures the outpute is in a good format, 
+
+types of exports: regular export, table export, and foot which shows different footers for each section
+
+Doors family : Doors, Doors Web Access (you can use through a URL), Doors Next generation (jazz platform)
+
+When you open a project there's a DOORS database and you can see multiple folders and projects.
+If you want to create a document you create a new module. DOORS has built in module formats. You can specify a prefix
+to order different categories.
+
+There's a graphics view where you can go to certain parts of the document.
+
+Something that trips up importers
+Example: creating a word document that has hyperlinks, subscripts, graphics, tables. You can export it to DOORS from Word.
+It parses things and puts it into DOORS. A red bar indicates a change that indicates a save. I yellow bar means a change from 
+nothing to something. If you create a new baseline it turns to blue. You can modify things in a typical word document. You can restore
+information if you don't like the changes.
+
+You can use a filter to find requirements. Under filtiring type in anything that has a 'shall' or 'will'. You can create a 
+requirements view. You can make the view public or private.
+
+Often times a requirement can be two requirements. To break them up you can 'click split object test'.
+
+You can create an excel view of a document to make it look like excel. You can create a view say it's called matrix view for 
+the excel format.
+
+You can change views to look at them in a different way.
+
+Volatility is number of changes to the requirement. Impact is how important it is.
+
+How to build a traceability matrix,
+filter the shall statements
+use analysis wizard
+
+
+To export go to file->exmport
+
+Questions that people have:
+
+My customer is on DOORS 9.3 if I'm on 9.6 will it work? 
+Answer: Maybe or Maybe not
+
+How does DOORS 9.6 support agile scrum and sprints
+Answer: Doors generation would work well for this
+
+Will there be a DOORS 10
+Answer: Yes there will be 
+
+
+Use functional as A , User as B, System as C (traceability)
+use a analysis wizard
+
+
+
+
+
+
