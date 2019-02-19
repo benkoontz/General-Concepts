@@ -1,6 +1,8 @@
 DOORS
 IBM Software Group
 
+DOORS is used to store lots of requirements for large projects in a format that can organize the information.
+
 Why use requirements management?
 -systems are complex
 -programs can be long
