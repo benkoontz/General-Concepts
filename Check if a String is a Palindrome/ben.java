@@ -4,7 +4,6 @@ import java.util.*;
 
 
 // program to test if a string is a palindrom
-// a palindrome is a string that reads the same way forwards and backwards
 
 class Ben 
 { 
@@ -19,13 +18,15 @@ class Ben
     }
 
    // this method tests if a string is equal to a reversed string
-   public static boolean palindromTest(String text) {
+   public static String palindromTest(String text) {
 	   String reverse = reverse(text);
+	   String yes = "yes";
+	   String no = "no";
 	   
 	   if(text.equals(reverse))
-		   return true;
+		   return yes;
 	   else
-		   return false;
+		  return  no;
    }
    
    // recursion method to reverse the string
