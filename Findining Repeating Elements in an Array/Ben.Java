@@ -26,7 +26,7 @@ class Ben
 		
 		for(int i = 0; i < size; i++) // gets each element in the array i
 		{ 
-			for (int j = i + 1; j < size; j++) // gets every element for each element in i
+			for (int j = i + 1; j < size; j++) // checks to see if an element after each i element is a duplicate
 			{
 				if(arr[i] == arr[j])
 					System.out.println(arr[i] + " is a matching element ");
