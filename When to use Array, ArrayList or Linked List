@@ -1,3 +1,4 @@
+Array List vs. Linked List
 The main benefit of a linked list over am Array List is when you want to use an iterator
 to remove or add elements.
 
@@ -8,7 +9,7 @@ to remove or add elements.
     Iterator.remove() is O(1). <--- main benefit of LinkedList<E>
     ListIterator.add(E element) is O(1) This is one of the main benefits of LinkedList<E>
 
-
+Array List vs. Linked List
 The main benefit of an array list is when you want to get the index of elements
 
     get(int index) is O(1) <--- main benefit of ArrayList<E>
@@ -18,6 +19,20 @@ The main benefit of an array list is when you want to get the index of elements
     Iterator.remove() is O(n) (with n/2 steps on average)
     ListIterator.add(E element) is O(n) (with n/2 steps on average)
     
+ Array vs. Array List
  When you want a fixed size use array over Linked List and Array List.
  Array Lists are not dynamic meaning their size doesn't change.
  Arraylists are part of the List interface in Java
+ 
+ Array vs. Linked List
+ Accessing elements in an array is faster than a linked list because you don't have to access nodes
+ 
+ Array vs. Linked List
+ Benefits of Linked List
+1) Dynamic size
+2) Ease of insertion/deletion
+disadvantages of linked list
+1) Random access is not allowed. We have to access elements sequentially starting from the first node. 
+So we cannot do a binary search with linked lists.
+2) Extra memory space for a pointer is required with each element of the list.
+3) Arrays have better cache locality that can make a pretty big difference in performance. 
