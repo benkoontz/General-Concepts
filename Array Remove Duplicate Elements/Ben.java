@@ -36,7 +36,6 @@ class Ben
 			}
 		}
 		
-		//arr[arr.length -1] = 0; // adds 0 for the last duplicate
 		return arr;
 	}
 }
