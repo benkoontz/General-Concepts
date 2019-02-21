@@ -22,7 +22,7 @@ The main benefit of an array list is when you want to get the index of elements
  Array vs. Array List
  When you want a fixed size use array over Linked List and Array List.
  Array Lists are not dynamic meaning their size doesn't change.
- Arraylists are part of the List interface in Java
+ Arraylists are part of the List interface in Java, so they have their own methods
  
  Array vs. Linked List
  Accessing elements in an array is faster than a linked list because you don't have to access nodes
