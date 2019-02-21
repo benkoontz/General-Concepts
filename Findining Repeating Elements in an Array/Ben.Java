@@ -24,7 +24,7 @@ class Ben
 		
 		System.out.println("The matching elements are\n");
 		
-		for(int i = 0; i < size; i++) // gets first element
+		for(int i = 0; i < size; i++) // gets an element
 		{ 
 			for (int j = i + 1; j < size; j++) // gets every element for each element in i
 			{
