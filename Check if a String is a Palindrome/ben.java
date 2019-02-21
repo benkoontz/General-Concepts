@@ -4,6 +4,7 @@ import java.util.*;
 
 
 // program to test if a string is a palindrom
+// a palindrome is a string that reads the same way forwards and backwards
 
 class Ben 
 { 
