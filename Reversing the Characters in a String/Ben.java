@@ -1,3 +1,8 @@
+package halo;
+
+import java.util.*;
+
+
 // program to reverse the characters in a word
 
 class Ben 
@@ -28,3 +33,11 @@ class Ben
     }
    
 }
+
+
+
+
+
+
+    
+
