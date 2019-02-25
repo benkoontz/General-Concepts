@@ -36,3 +36,8 @@ disadvantages of linked list
 So we cannot do a binary search with linked lists.
 2) Extra memory space for a pointer is required with each element of the list.
 3) Arrays have better cache locality that can make a pretty big difference in performance. 
+
+Hash Table vs array
+When you want to get an element in a hash table the time is O(1), but when you want
+to get an element in an array the time is O(n)
+
