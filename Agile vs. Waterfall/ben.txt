@@ -1,7 +1,5 @@
 Incubate (waterfall) vs iterate (agile)
 
-How do you turn an idea into reality?
-
 Waterfall:
 Think about what you want to do long and hard then devlop it
 Iterative: Minimum viable project 
