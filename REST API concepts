@@ -1,0 +1,28 @@
+API stands for Application Programming Interface
+it allows one piece of software to talk to another
+
+REST stands for Representaional State Transfer
+
+Usually a Rest API works the same way a website does. You make a call of a client to a server
+and get data from a http request.
+
+www.facebook.com/youtube
+
+made an api requequest to facebooks graph api
+www.graph.facebok.com/youtube   
+
+filter the data using parameters
+www.graph.facebok.com/youtube?fields=id,name,likes   
+
+maps.gooogleapis/maps/api/json
+server is maps.google.apis.com
+resource is /maps, /api, /json
+
+instagram.com/developer
+click api console
+
+GET request is used to consume data
+POST request  accepts the data enclosed in the body of the request message
+
+Intal postman rest client
+
