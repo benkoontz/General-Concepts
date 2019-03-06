@@ -1,0 +1,22 @@
+Critical systems are systems that failure of a critical system can result in loss of life or other
+types of chrisis
+
+Dependability
+look at all the features together as one
+safety, reliability, availability, security
+
+safety is when a system should never harm people
+reliability is the ability of the system to operate without serious failures
+availiability is the availibiity of the system to deliver services when requested
+security is the ability of a system to protect itself from malicious attacks
+
+mission critical systems: faillure results in failure of some goal directed activited, for example a spacecraft going to mars
+
+business critical systems: system failure results in lots of economic failure, for example amazon selling produts
+
+infrastructure systems: failure results in loss of infastruture 
+
+Critical systems are general a part of a stack of systems, hardware, network
+
+majority of critical systems are dependent on other systems and are not stand alone
+
