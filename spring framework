@@ -1,0 +1,210 @@
+Frameworks are large bodies of predifended code which we can add to our own code to solve a problem.
+
+Advantages:
+efficiency 
+security
+expense
+support
+
+Disadvnatages:
+restrictions are in place
+code is public 
+custom built features
+
+different java frameworkss
+jsf 
+maven hibernate
+spring
+
+Pretend there's a developement team of 6 people
+scenario: we need to build an application but have very little time to develope the project. If we go
+by the general way it will take a lot of time to write the code. Alice says lets use struts
+someone else says hibernate. Someone says says spring. Why? We can write our own implementation.
+
+Spring framework makes the code optimized. 
+
+Spring is open source, light weight, reduces overall complexity, framework of frameworks,
+
+Spring as released in 2003 on Source forge. There's  a web layer, common layer, service layer, and
+data layer
+
+Spring framework is used very widely. Why?
+1. Spring is a model view controller architecture
+2. Spring is very flexible as it makes use of interfaces
+3. Springs MVC web tiers are typically easy to test
+4. Well defined interface to business layer
+5. Spring controllers are configured via Ioc
+6. Offers better integration with view technologies other than JSP
+
+Spring: Appllication framework, loose copupling (less dependancy on one model over another model), light weighted
+easy integration with ORM technologies. Doesn't have a tag library and inegration isn't easy with client
+side technologies.
+
+Spring arctiecture has a layer architecture. Bottom up:
+
+1. Test
+2. Core Contaner: Beans Core Context SpEL
+3. Aspect oriented programming: how we can implement 
+4. Data Access/Integration
+5. Web Model
+
+Core modules:
+Core Container: Core, Bean, Contex SpEL
+Data access: JDBC, ORM, OXM, JMS, Transaction
+Web: WebSocket, Servlet, web Portlet
+Misc: AOP, Aspects, Intrumentation, Messaging, Test
+
+First program using spring:
+
+steps:
+1. Install Eclipse IDE
+2. Help -> Eclipse Marketplace
+3. Search for Spring IDE
+4. Confirm selected features and click install
+5.
+
+5 steps to code:
+1. write bean class
+2. xml file
+3. one main class
+4. load jar files required for spring code
+5. run the project
+
+class Employee {
+	// attributes
+	int eid;
+	String ename;
+	String address;
+	char gender;
+	
+	// Methods
+}
+
+Object Construction
+Employee eRef = new Employee();
+eRef.edi = 101;
+eRef.ename = "John Watson"
+eRef.address = "Redwood Shores";
+eRef.gender = 'M';
+
+Spring has cor module which follows inversion of control
+
+You don't create objects. Objects shall be configured in an XML file by the devloper.
+Spring Contaner -> Resonsible to construct the Jav Obejcts by parsing XML file.
+
+(open eclipse -> New Java project -> SpringCoreDemo)
+New -> Class -> Package, name
+
+public co.edureka;
+// Bean class (anything other than the attributes and the objects)
+public cass Employee {
+
+	int eid;
+	String ename;
+
+	// Methods
+	public Employee (create gettsers and setters)
+
+// new class with a main methods
+
+public static void main (String[] args) {
+	Employee eRef = new Employee();
+	eRef.setEid(101);
+	
+	System.out.println("Employee details " + eaddress
+
+	// Spring Way (use inverison of control)
+	(add jar files -> right click -> build path -> Add exernal Jars)
+	paste the xml file in the src file with a root tag of beans. The file contains key attribute pairs
+	
+	// first api, Bean factory constructs the objects when you request for them
+	Resourcce resource = new ClassPathResource("employeebean.xml");
+	BeanFactory factory = new XMLBeanFactory(resource); // Spring Container which shall parse XML file and construct the object
+
+	// 2nd api will create the object even if you don't request them
+	ApplicationContext context = new ClassPatchXmlApplicationContext("employee.xml");
+
+
+	Employee e1 = (Employee) factory.getBean("emp1");
+	Employee e2 = factory.getBean("emp2", Employee.class);
+
+	System.out.println(Employee 1 Details: " + e1)
+	System.out.println(Employee 1 Details: " + e2)
+
+1. Bean class
+2. xml file
+3. demo class
+4. load jara files
+5. run
+
+IoC container: creating the objects, Wring them together, Managing their complete life cycle, configuring
+
+2 types of IOC containers:
+1. Bean factory will construct the object when you request for them
+2. Application Conect construct the object by default.
+
+What is Bean object?
+1. Beans are objects that form the backbone of our application and are managed by the Spring IoC container
+2. Spring IoC container instantiantes, assembles and manages the bean objects
+3. The configuration metadata that are supplied to the container are used to create bean obejcts
+
+Lifecyle of bean
+1. Istantiate
+2. populate the data for the object
+3. Call BeansNameware's setBeanName
+4. Call BeanFactoryAware's setBeanFactory()
+5. Call ApplicationContextAware's set ApplicationContext
+
+public voide myInit() {
+
+}
+
+publc void destroy() {
+
+}
+
+Demo on Beans: Dependency Injection
+
+class Employee () {
+	
+}
+
+class Adress () {
+
+}
+
+Employee e = new Employee();
+Construction of address object relies on construction of employee object
+
+Address a = new Address();
+
+e.setAddress(a);
+
+Spring Way: XML IOC
+Dependency Injection either to Construction or Constructor
+
+Dependency Injection:
+
+1. It s a design pattern which will remove the dependcy from the program code so it is easier to manage and test
+2. Dependecy injects means any change in one will not affect the other, in the XML and the Java file
+
+example:
+
+class Address {
+	String city;
+	String state;
+
+	// methods
+	public address() {
+
+	}
+
+}
+
+class emloyee {
+
+	Address adress;
+
+	public Employee(String address){
+	this.address = address
+}
