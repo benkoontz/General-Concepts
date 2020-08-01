@@ -1,0 +1,58 @@
+The different .net forms are on Microsoft Visual Studio. Each of them
+have their own libraries. 
+
+
+.net standard library is a set of api's that all .net implementations
+must implement. If you implement code based on a .net standard, your code
+will run across all the .net platforms. The lower .net standard you use, the more 
+platforms your code will work across.
+
+.net is a platform to build applications on Microsoft
+created in 2002
+only one version of the framework installed on the same machine
+
+.net core is cross platform
+created in 2016
+better performance
+
+
+Visual Studio -> File -> New project
+Note which platforms you want your code to run across. 
+.Net Standard -> create new library
+
+using System;
+
+
+// higher version the code the more libraries you have
+namespace standardclasslib
+{
+	public class Class1
+	{
+		public in addition(int x, int y){
+		// if you increase the framework standard it gives an error saying this namespace can't be find because the higher version the standard,
+			return x + y;
+		}
+
+	}
+}
+
+
+add new project -> .net framwork -> console framework
+
+when the console framework gets created, add a refernce to the standard class library
+
+add new project -> .net core
+
+if you are on 1.0, the number of available api's is less
+
+each .net standard should align with the framework or the code will not compile
+
+
+.net core is targeted to having a cross base framework (windows, linux, mac os)
+the reason is so they can contact a larger audience
+
+best for:
+cross platform
+micro services and containers
+many .net frameworks
+performance scalability
