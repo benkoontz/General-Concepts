@@ -1,0 +1,75 @@
+Docker is a tool for running apps in an isolaed enviornment, similar to a virtual machine
+
+1. your app runs in the same enviornemnt
+2. If you're working on multuople projects you can sandbox each enviornment
+
+
+Containers contain the code.
+
+Each VM contains its on vm including the kernel. This s resource heavy
+on the host machine
+
+Docker uses the host machines kernel and everything on top of it is seperated.
+All linux distributions are built on the same Kernel.
+
+
+Docker uses fewer resources and memoery
+
+a container is a running instance of an image. It has an OS, code, and
+application in a file.
+
+A docker file is a list of steps to perorm to create the image. 
+
+1. Write docker file
+2. create image
+3. image creates he container
+
+hello world in php
+
+
+<?php 
+
+echo "hello world"
+
+
+
+new docker file
+hub.docker.com you can search for images such as a php image. The best ones
+are the official ones.
+
+
+FROM php:7.0-apache      // download php
+COPY src/ /var/www/html    // copy files inside of the image
+EXPOSE 80    /// listen to port 80
+
+
+Terminal:
+
+cd Desktop/docker
+
+docker build -t hello-world.
+
+
+docker run -p 80:80 hello-world
+
+go to local host and the app shows up. If you refresh the php it won't refelt the file. You have to rebuild the image.
+
+
+Volumes: 
+1. persist and share data  between containers
+2. host and container
+
+docker run -p 80:80 -v /users/ben/desktop/src/:/var/www/html/hello-world
+
+Changes will be reflected right away using the way above.
+
+have one process linked to a container because the container is tied directly
+to a single process
+
+1. find image on hub
+2. write docker file
+3. run to get container to get container
+4. get a volume to make updates automatically
+
+
+
